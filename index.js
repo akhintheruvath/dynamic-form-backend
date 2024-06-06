@@ -1,6 +1,12 @@
 const express = require("express");
+const logger = require('morgan');
+const formConfigRoutes = require("./routes/formConfigRoutes");
 const app = express();
+const PORT = 8000;
 
-app.listen(8000, () => {
-   console.log("Server started...");
+app.use(logger('dev'));
+app.use("/api", formConfigRoutes);
+
+app.listen(PORT, () => {
+   console.log(`Server started on port ${PORT}`);
 });

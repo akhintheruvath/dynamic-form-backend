@@ -20,5 +20,8 @@
   "homepage": "https://github.com/akhintheruvath/dynamic-form-backend#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
