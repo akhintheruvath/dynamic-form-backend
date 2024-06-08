@@ -3,8 +3,8 @@
 ## Prerequisites:
 
 Before setting up the backend, ensure you have the following installed on your machine:
-Node.js (https://nodejs.org/en)
-npm (usually comes with Node.js)
+Node.js (https://nodejs.org/en),
+npm (usually comes with Node.js) and
 nodemon
 
 ## Scripts
