@@ -15,9 +15,7 @@ const formConfigurations = (req, res) => {
 
       return res.status(200).send({
          success: true,
-         data: {
-            formConfigurations: formConfigurationsData,
-         },
+         formConfigurations: formConfigurationsData,
       });
    } catch (error) {
       console.log("Error occured in formConfigurations: ", error.message);
